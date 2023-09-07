@@ -1,6 +1,6 @@
 
 def Revers_string(x):
-    return x[::-1]
+     return ' '.join([wrd[::-1] for wrd in in_wrd.split(' ')])
 
 # def test_answer(x):
 #     reversed_x = Revers_string(x)
