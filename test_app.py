@@ -1,2 +1,5 @@
-def reverse_word(in_wrd: str) -> str:
-    return ' '.join([wrd[::-1] for wrd in in_wrd.split(' ')])
+def reverse_str(input):
+    words = input.split()
+    reversed_words = [word[::-1] for word in words]
+    reversed_str = ' '.join(reversed_words)
+    return reversed_str
